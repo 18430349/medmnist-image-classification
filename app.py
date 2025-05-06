@@ -6,7 +6,7 @@ import cv2
 from tensorflow.keras.models import load_model
 
 # Load your trained model
-model = load_model(''breast_cancer_cnn_model.keras')
+model = load_model('breast_cancer_cnn_model.keras')
 # Set page configuration with default styling
 st.set_page_config(page_title="Breast Cancer Tumor Classifier", layout="wide")
 
