@@ -68,10 +68,9 @@ The interface allows users to:
 How to Run the Project Locally
 To run the project locally you will first need to clone this repository and install the required dependencies.
 
-Clone this repository:
+Download the app.py:
 ```
-git clone https://github.com/your-github-username/medmnist-image-classification.git
-cd medmnist-image-classification
+
 ```
 
 Install the required dependencies:
@@ -80,8 +79,9 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
+Download the model and save it in the same directory to the app.py file
 ```
-pip install -r requirements.txt
+https://github.com/18430349/medmnist-image-classification/blob/main/breast_cancer_cnn_model.keras
 ```
 3. Run the Streamlit app:
 
